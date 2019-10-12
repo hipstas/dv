@@ -4,4 +4,4 @@ LABEL maintainer="Taylor Arnold <tbarnold@protonmail.ch>"
 
 # Install python libraries from pip
 RUN pip3 install --upgrade pip
-RUN pip3 install dvt=0.3.1
+RUN pip3 install dvt==0.3.1
